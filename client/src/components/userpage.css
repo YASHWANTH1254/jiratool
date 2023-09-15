@@ -1,0 +1,63 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    background-color:#1563a7;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .admin-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .logout-button {
+    background-color: #1563a7; /* Custom background color */
+    color: white; /* Custom text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #d8d7d7; /* Custom border color */
+  }
+  
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
